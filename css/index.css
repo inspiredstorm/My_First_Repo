@@ -1,0 +1,64 @@
+h1, h2, h3, p {
+ font-family: helvetica, arial, sans-serif;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+ul {
+    text-align: left;
+}
+
+div {
+    border: 10px;
+    border-color: black;
+}
+
+img {
+    margin: 16px;
+}
+
+.rowImg {
+    width: 200px;
+}
+
+.navButton {
+    display: inline-block;
+    background-color: rgb(51, 48, 48);
+    color:white;
+    text-align: center;
+    width: 100px;
+    height: 48px;
+}
+/* Write your selector for .left below */
+.left {
+    float:left;
+}
+
+.gallery {
+    display: inline-block;
+}
+.sidebar {
+    width: 30%;
+    height: 600px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Write your selector for .right below */
+.right {
+    float:left;
+    width: 64%;
+    height: 600px;
+    margin: 0px;
+    padding: 24px;
+}
+/* Write your selector for .separator below */
+.separator {
+    width: 750px;
+}
+
+.hero {
+   /* margin: 50px;*/
+}
